@@ -10,11 +10,27 @@
   </head>
   <body>
     <header id="header">
-      <div id="hamburger">
+      <nav id="mobile-menu">
+        <a id="x" onclick="myFunction()">
+          <span></span>
+          <span></span>
+        </a>
+        <ul>
+          <li><a href="#header">Ana Sayfa</a></li>
+          <li><a href="#sectionRooms">Odalarımız</a></li>
+          <li><a href="#sectionHealth">Covid Önlemlerimiz</a></li>
+          <li><a href="#sectionPrivileges">Ayrıcalıklarımız</a></li>
+          <li><a href="#sectionGallery">Fotoğraf Galerisi</a></li>
+          <li><a href="#sectionComments">Müşteri Yorumlarımız</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="myFunction()">
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </a>
       <div id="logo">
         <div id="logo-stars">
           <img src="./assets/logo-star.svg" alt="hotel stars" />
@@ -179,6 +195,7 @@
     <footer class="wrapper">
       <a href="mailto:berksysl.g@gmail.com" style="text-decoration: none; color: inherit; font-family: 'Poppins', sans-serif;"><span style="display: block;padding: 10px 0;font-size: 9px;text-align: center;">created by Tahaberk SOYSAL</span></a>
     </footer>
-    <script src="slideshow.js"></script>
+    <script src="./slideshow.js"></script>
+    <script src="./mobileMenu.js"></script>
   </body>
 </html>
