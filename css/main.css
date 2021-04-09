@@ -400,6 +400,7 @@ ul li {
 
 .contact .call {
   font-weight: 200;
+  font-size: 12px;
 }
 
 .contact .call i {
@@ -409,6 +410,7 @@ ul li {
 
 .contact .address {
   font-weight: 200;
+  font-size: 12px;
 }
 
 .contact .address i {
@@ -418,6 +420,7 @@ ul li {
 
 .contact .mail {
   font-weight: 200;
+  font-size: 12px;
 }
 
 .contact .mail i {
@@ -428,5 +431,7 @@ ul li {
 iframe {
   margin-top: 30px !important;
   margin-bottom: 30px !important;
+  width: 100% !important;
+  height: 300px;
 }
 /*# sourceMappingURL=main.css.map */

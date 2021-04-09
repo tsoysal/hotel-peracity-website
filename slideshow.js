@@ -14,6 +14,11 @@ images[8] = './assets/slider9.jpg';
 images[9] = './assets/slider10.jpg';
 images[10] = './assets/slider11.jpg';
 images[11] = './assets/slider12.jpg';
+images[12] = './assets/slider13.jpg';
+images[13] = './assets/slider14.jpg';
+images[14] = './assets/slider15.jpg';
+images[15] = './assets/slider16.jpg';
+images[16] = './assets/slider17.jpg';
 
 function changeImg() {
     document.getElementById('active-image').src = images[i];
