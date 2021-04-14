@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
 #mobile-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -53,15 +53,15 @@
 
 #mobile-menu #x {
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 15px;
+  left: 15px;
 }
 
 #mobile-menu span {
   display: inline-block;
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 10px;
+  left: 10px;
   width: 25px;
   height: 3px;
   background-color: #ffffff;
@@ -140,8 +140,8 @@
 
 #hamburger {
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 10px;
+  left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -309,11 +309,11 @@ body {
   height: 30px !important;
 }
 
-.sectionPrecautions {
+#sectionPrecautions {
   margin-top: 25px;
 }
 
-.sectionPrecautions .caption {
+#sectionPrecautions .caption {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -325,12 +325,12 @@ body {
           align-items: center;
 }
 
-.sectionPrecautions .virusicon {
+#sectionPrecautions .virusicon {
   color: #3454D1;
   font-size: 30px;
 }
 
-.sectionPrecautions h2 {
+#sectionPrecautions h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-align: center;
@@ -340,22 +340,22 @@ body {
   color: #d1345b;
 }
 
-.sectionPrecautions ul {
+#sectionPrecautions ul {
   margin-top: 20px !important;
   font-family: 'Poppins',sans-serif;
   font-weight: 500;
 }
 
-.sectionPrecautions ul li {
+#sectionPrecautions ul li {
   margin: 5px 0;
   list-style-image: url("/assets/heartbeat-solid 1.svg");
 }
 
-.sectionPrivileges {
+#sectionPrivileges {
   margin-top: 25px;
 }
 
-.sectionPrivileges .cards {
+#sectionPrivileges .cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -372,7 +372,7 @@ body {
   font-weight: 400;
 }
 
-.sectionPrivileges .cards .card {
+#sectionPrivileges .cards .card {
   text-align: center;
   width: 260px;
   height: 280px;
@@ -383,13 +383,13 @@ body {
           box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.25);
 }
 
-.sectionPrivileges .cards .cardCaption {
+#sectionPrivileges .cards .cardCaption {
   font-weight: 700;
   font-size: 22px;
   margin-top: 10px;
 }
 
-.sectionPrivileges .cards .carddesc {
+#sectionPrivileges .cards .carddesc {
   font-size: 15px;
   font-weight: 200;
   margin-top: 10px;
@@ -458,43 +458,43 @@ body {
   margin-top: 5px;
 }
 
-.contact {
+#contact {
   margin-top: 30px;
   font-family: 'Poppins', sans-serif;
 }
 
-.contact h3 {
+#contact h3 {
   padding: 10px 0px;
   font-size: 12px;
   font-weight: 200;
 }
 
-.contact .call {
+#contact .call {
   font-weight: 200;
   font-size: 12px;
 }
 
-.contact .call i {
+#contact .call i {
   color: #008FE0;
   margin-right: 10px;
 }
 
-.contact .address {
+#contact .address {
   font-weight: 200;
   font-size: 12px;
 }
 
-.contact .address i {
+#contact .address i {
   color: #00B448;
   margin-right: 10px;
 }
 
-.contact .mail {
+#contact .mail {
   font-weight: 200;
   font-size: 12px;
 }
 
-.contact .mail i {
+#contact .mail i {
   color: #CC00AB;
   margin-right: 10px;
 }
