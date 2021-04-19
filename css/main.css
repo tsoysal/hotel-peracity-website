@@ -505,4 +505,73 @@ iframe {
   width: 100% !important;
   height: 300px;
 }
+
+@media only screen and (min-width: 700px) {
+  #header {
+    min-height: 500px;
+  }
+  #logo h1 {
+    font-size: 72px;
+  }
+  #logo h1 #letter-a {
+    font-size: 88px;
+  }
+  #logo #logo-stars {
+    left: 111px;
+    top: 42px;
+  }
+  #logo-stars img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  #contact-section .btn {
+    width: 280px;
+    height: 70px;
+    font-size: 28px;
+  }
+  #contact-section .btn img {
+    width: 28px;
+  }
+  .quickNote p {
+    font-size: 18px;
+  }
+  .quickNote .noteLine {
+    height: 30px;
+  }
+  #sectionRooms .roomCaptions {
+    font-size: 24px;
+  }
+  #sectionRooms .roomInfos {
+    font-size: 18px;
+  }
+  #sectionRooms .miniIcons {
+    font-size: 16px;
+  }
+  .noteLine2 {
+    height: 55px !important;
+  }
+  #sectionPrivileges .cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sectionPrivileges .card {
+    margin: 10px;
+  }
+  #sectionPrivileges .cards .cardCaption {
+    font-size: 18px;
+  }
+  .box img {
+    width: 75%;
+  }
+  .box p {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

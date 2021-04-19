@@ -1,0 +1,88 @@
+@media only screen and (min-width: 700px) {
+    //Logo background
+    #header {
+        min-height: 500px;
+    }
+
+
+    //Peracity Logo
+    #logo h1 {
+        font-size: 72px;
+    }
+
+    #logo h1 #letter-a {
+        font-size: 88px;
+    }
+
+    #logo #logo-stars {
+        left: 111px;
+        top: 42px;
+    }
+
+    #logo-stars img {
+        width: 24px;
+        margin-right: 10px;
+    }
+
+    //Buttons
+    #contact-section .btn {
+        width: 280px;
+        height: 70px;
+        font-size: 28px;
+    }
+
+    #contact-section .btn img {
+        width: 28px;
+    }
+
+    //quick note
+    .quickNote p {
+        font-size: 18px;
+    }
+    .quickNote .noteLine {
+        height: 30px;
+    }
+
+    //Captions
+    #sectionRooms .roomCaptions {
+        font-size: 24px;
+    }
+
+    #sectionRooms .roomInfos {
+        font-size: 18px;
+    }
+
+    #sectionRooms .miniIcons {
+        font-size: 16px;
+    }
+
+    //quick note 2
+    .noteLine2 {
+        height: 55px !important;
+    }
+
+    //Cards
+    #sectionPrivileges .cards {
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    #sectionPrivileges .card {
+        margin: 10px;
+    }
+
+    #sectionPrivileges .cards .cardCaption {
+        font-size: 18px;
+    }
+
+    //comments 
+    .box img {
+        width: 75%;
+    }
+
+    .box p {
+        font-size: 14px;
+    }
+}
