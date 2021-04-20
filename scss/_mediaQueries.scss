@@ -1,21 +1,27 @@
 @media only screen and (min-width: 700px) {
     //Logo background
     #header {
-        min-height: 500px;
+        min-height: 700px;
     }
 
+    #desktop-menu {
+        display: flex !important;
+    }
 
     //Peracity Logo
+    #logo {
+        top: 150px;
+    }
     #logo h1 {
-        font-size: 72px;
+        font-size: 84px;
     }
 
     #logo h1 #letter-a {
-        font-size: 88px;
+        font-size: 98px;
     }
 
     #logo #logo-stars {
-        left: 111px;
+        left: 122px;
         top: 42px;
     }
 
@@ -36,11 +42,15 @@
     }
 
     //quick note
+    .quickNote {
+        margin: 30px auto !important;
+    }
     .quickNote p {
-        font-size: 18px;
+        font-size: 12px;
     }
     .quickNote .noteLine {
-        height: 30px;
+        height: 20px !important;
+        width: 3px !important;
     }
 
     //Captions
@@ -58,7 +68,36 @@
 
     //quick note 2
     .noteLine2 {
-        height: 55px !important;
+        height: 55px;
+    }
+
+    //Room Cards
+    .roomCards {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #sectionRooms .roomCaptions {
+        font-size: 20px;
+    }
+
+    #sectionRooms .roomInfos {
+        font-size: 14px;
+    }
+
+    #sectionRooms .miniIcons {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .rcard {
+        width: 45%;
+        margin-top: 20px;
+    }
+    
+    .slideshow {
+        width: 75%;
+        margin: 30px auto;
     }
 
     //Cards
@@ -66,7 +105,7 @@
         flex-direction: row;
         margin-left: auto;
         margin-right: auto;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     #sectionPrivileges .card {
@@ -78,6 +117,9 @@
     }
 
     //comments 
+    .box figure {
+        width: 15%;
+    }
     .box img {
         width: 75%;
     }
@@ -85,4 +127,12 @@
     .box p {
         font-size: 14px;
     }
+
+    .box {
+        width: 60%;
+    }
+
+    .box1 {margin-right: auto;}
+    .box2 {margin-left: auto;margin-right: auto;}
+    .box3 {margin-left: auto;}
 }

@@ -82,22 +82,22 @@
     justify-content: space-between;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+}
 
-    .btn {
-        width: 138px;
-        height: 40px;
-        background-color: $button-color;
-        border: none;
-        border-radius: 5px;
-        color: $button-textColor;
-        font-family: inherit;
-    }
+.btn {
+    width: 138px;
+    height: 40px;
+    background-color: $button-color;
+    border: none;
+    border-radius: 5px;
+    color: $button-textColor;
+    font-family: inherit;
+}
 
-    .phoneBtn {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
+.phoneBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 //Note 1

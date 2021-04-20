@@ -176,7 +176,7 @@
   font-weight: 600;
 }
 
-#contact-section .btn {
+.btn {
   width: 138px;
   height: 40px;
   background-color: #3454D1;
@@ -186,7 +186,7 @@
   font-family: inherit;
 }
 
-#contact-section .phoneBtn {
+.phoneBtn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -508,16 +508,24 @@ iframe {
 
 @media only screen and (min-width: 700px) {
   #header {
-    min-height: 500px;
+    min-height: 700px;
+  }
+  #desktop-menu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  #logo {
+    top: 150px;
   }
   #logo h1 {
-    font-size: 72px;
+    font-size: 84px;
   }
   #logo h1 #letter-a {
-    font-size: 88px;
+    font-size: 98px;
   }
   #logo #logo-stars {
-    left: 111px;
+    left: 122px;
     top: 42px;
   }
   #logo-stars img {
@@ -532,11 +540,15 @@ iframe {
   #contact-section .btn img {
     width: 28px;
   }
+  .quickNote {
+    margin: 30px auto !important;
+  }
   .quickNote p {
-    font-size: 18px;
+    font-size: 12px;
   }
   .quickNote .noteLine {
-    height: 30px;
+    height: 20px !important;
+    width: 3px !important;
   }
   #sectionRooms .roomCaptions {
     font-size: 24px;
@@ -548,7 +560,34 @@ iframe {
     font-size: 16px;
   }
   .noteLine2 {
-    height: 55px !important;
+    height: 55px;
+  }
+  .roomCards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #sectionRooms .roomCaptions {
+    font-size: 20px;
+  }
+  #sectionRooms .roomInfos {
+    font-size: 14px;
+  }
+  #sectionRooms .miniIcons {
+    width: 90%;
+    font-size: 13px;
+  }
+  .rcard {
+    width: 45%;
+    margin-top: 20px;
+  }
+  .slideshow {
+    width: 75%;
+    margin: 30px auto;
   }
   #sectionPrivileges .cards {
     -webkit-box-orient: horizontal;
@@ -557,9 +596,9 @@ iframe {
             flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   #sectionPrivileges .card {
     margin: 10px;
@@ -567,11 +606,79 @@ iframe {
   #sectionPrivileges .cards .cardCaption {
     font-size: 18px;
   }
+  .box figure {
+    width: 15%;
+  }
   .box img {
     width: 75%;
   }
   .box p {
     font-size: 14px;
   }
+  .box {
+    width: 60%;
+  }
+  .box1 {
+    margin-right: auto;
+  }
+  .box2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box3 {
+    margin-left: auto;
+  }
+}
+
+#desktop-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  height: 60px;
+  background-color: #272727;
+  display: none;
+}
+
+#desktop-menu button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#desktop-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#desktop-menu ul li {
+  font-size: 1.3vw;
+  list-style-type: none;
+}
+
+#desktop-menu ul li a {
+  color: white;
+  text-decoration: none;
+  width: 1rem;
+  height: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
