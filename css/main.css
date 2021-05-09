@@ -420,7 +420,7 @@ body {
 }
 
 .box figure {
-  width: 20%;
+  width: 15%;
   margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -508,7 +508,9 @@ iframe {
 
 @media only screen and (min-width: 700px) {
   #header {
-    min-height: 700px;
+    min-height: 790px;
+    width: 90%;
+    margin: 0 auto;
   }
   #desktop-menu {
     display: -webkit-box !important;
@@ -533,22 +535,45 @@ iframe {
     margin-right: 10px;
   }
   #contact-section .btn {
-    width: 280px;
-    height: 70px;
-    font-size: 28px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
   }
   #contact-section .btn img {
     width: 28px;
   }
+  #contact-section a:nth-child(1) .btn {
+    position: absolute;
+    top: 590px;
+    z-index: 2;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  #contact-section .phoneBtn {
+    display: none;
+  }
   .quickNote {
-    margin: 30px auto !important;
+    margin: 50px auto !important;
   }
   .quickNote p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .quickNote .noteLine {
     height: 20px !important;
     width: 3px !important;
+  }
+  #firstNote {
+    position: absolute;
+    top: 650px;
+    color: #fff;
+    z-index: 2;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #sectionRooms .roomCaptions {
     font-size: 24px;
@@ -583,11 +608,29 @@ iframe {
   }
   .rcard {
     width: 45%;
-    margin-top: 20px;
+    margin: 0;
   }
   .slideshow {
     width: 75%;
     margin: 30px auto;
+  }
+  #sectionPrecautions .virusicon {
+    display: none;
+  }
+  #sectionPrecautions .caption {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sectionPrecautions ul {
+    margin-top: 50px !important;
+  }
+  #sectionPrecautions li {
+    margin-top: 20px !important;
+  }
+  .sectionCaptions {
+    margin-top: 60px;
+    margin-bottom: 30px;
   }
   #sectionPrivileges .cards {
     -webkit-box-orient: horizontal;
@@ -608,12 +651,13 @@ iframe {
   }
   .box figure {
     width: 15%;
+    margin-right: 5px;
   }
   .box img {
     width: 75%;
   }
   .box p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .box {
     width: 60%;
@@ -627,6 +671,15 @@ iframe {
   }
   .box3 {
     margin-left: auto;
+  }
+  #contact h3 {
+    font-size: 16px;
+  }
+  #contact .call, #contact .mail, #contact .address {
+    font-size: 16px;
+  }
+  iframe {
+    height: 500px;
   }
 }
 
