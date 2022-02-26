@@ -1,0 +1,197 @@
+@media only screen and (min-width: 700px) {
+    //Logo background
+    #header {
+        min-height: 790px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #desktop-menu {
+        display: flex !important;
+    }
+
+    //Peracity Logo
+    #logo {
+        top: 150px;
+    }
+    #logo h1 {
+        font-size: 84px;
+    }
+
+    #logo h1 #letter-a {
+        font-size: 98px;
+    }
+
+    #logo #logo-stars {
+        left: 122px;
+        top: 42px;
+    }
+
+    #logo-stars img {
+        width: 24px;
+        margin-right: 10px;
+    }
+
+    //Buttons
+    #contact-section .btn {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+    }
+
+    #contact-section .btn img {
+        width: 28px;
+    }
+
+    #contact-section a:nth-child(1) .btn {
+        position: absolute;
+        top: 590px;
+        z-index: 2;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    #contact-section .phoneBtn {
+        display: none;
+    }
+
+    //quick note
+    .quickNote {
+        margin: 50px auto !important;
+    }
+    .quickNote p {
+        font-size: 15px;
+    }
+    .quickNote .noteLine {
+        height: 20px !important;
+        width: 3px !important;
+    }
+
+    #firstNote {
+        position: absolute;
+        top: 650px;
+        color: #fff;
+        z-index: 2;
+        left: 50%;
+        transform: translate(-50%,0);
+        justify-content: center;
+    }
+
+    //Captions
+    #sectionRooms .roomCaptions {
+        font-size: 24px;
+    }
+
+    #sectionRooms .roomInfos {
+        font-size: 18px;
+    }
+
+    #sectionRooms .miniIcons {
+        font-size: 16px;
+    }
+
+    //quick note 2
+    .noteLine2 {
+        height: 55px;
+    }
+
+    //Room Cards
+    .roomCards {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #sectionRooms .roomCaptions {
+        font-size: 20px;
+    }
+
+    #sectionRooms .roomInfos {
+        font-size: 14px;
+    }
+
+    #sectionRooms .miniIcons {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .rcard {
+        width: 45%;
+        margin:0;
+    }
+
+    .slideshow {
+        width: 75%;
+        margin: 30px auto;
+    }
+
+    //Health section
+    #sectionPrecautions .virusicon {
+        display: none;
+    }
+
+    #sectionPrecautions .caption {
+        justify-content: center;
+    }
+
+    #sectionPrecautions ul {
+        margin-top: 50px !important;
+    }
+
+    #sectionPrecautions li {
+         margin-top: 20px !important;
+    }
+
+    //Cards
+    .sectionCaptions {
+        margin-top: 60px;
+        margin-bottom: 30px
+    }
+
+    #sectionPrivileges .cards {
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+    }
+
+    #sectionPrivileges .card {
+        margin: 10px;
+    }
+
+    #sectionPrivileges .cards .cardCaption {
+        font-size: 18px;
+    }
+
+    //comments 
+    .box figure {
+        width: 15%;
+        margin-right: 5px;
+    }
+    .box img {
+        width: 75%;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+
+    .box {
+        width: 60%;
+    }
+
+    .box1 {margin-right: auto;}
+    .box2 {margin-left: auto;margin-right: auto;}
+    .box3 {margin-left: auto;}
+
+    #contact h3 {
+        font-size: 16px;
+    }
+
+    #contact .call,#contact .mail,#contact .address {
+        font-size: 16px;
+    }
+
+    iframe {
+        height: 500px;
+    }
+}
