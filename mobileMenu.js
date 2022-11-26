@@ -1,8 +1,8 @@
 function myFunction() {
-  var x = document.getElementById("mobile-menu");
-    if (x.style.display === "flex") {
-      x.style.display = "none";
+  let menuEl = document.getElementById("mobile-menu");
+    if (menuEl.style.display === "flex") {
+      menuEl.style.display = "none";
     } else {
-      x.style.display = "flex";
+      menuEl.style.display = "flex";
     }
   } 
