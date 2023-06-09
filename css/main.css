@@ -12,24 +12,18 @@
   width: 100%;
   height: 100vh;
   display: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background-color: #393939;
   z-index: 7;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 22px;
 }
-
 #mobile-menu ul {
   list-style-type: none;
   text-align: center;
   width: 100%;
 }
-
 #mobile-menu ul a {
   display: block;
   padding-top: 20px;
@@ -38,25 +32,20 @@
   text-decoration: none;
   color: #ffffff;
 }
-
 #mobile-menu ul li:hover {
   background-color: #434343;
 }
-
 #mobile-menu ul li:active {
   background-color: #434343;
 }
-
 #mobile-menu ul li:focus {
   background-color: #434343;
 }
-
 #mobile-menu #x {
   position: absolute;
   top: 15px;
   left: 15px;
 }
-
 #mobile-menu span {
   display: inline-block;
   position: absolute;
@@ -65,14 +54,11 @@
   width: 25px;
   height: 3px;
   background-color: #ffffff;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   z-index: 7;
 }
-
 #mobile-menu span:nth-child(even) {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 #header {
@@ -83,10 +69,8 @@
   background-position: 12% 50%;
   background-repeat: no-repeat;
   position: relative;
-  -webkit-box-shadow: 0px 5px 5px 0px grey;
-          box-shadow: 0px 5px 5px 0px grey;
+  box-shadow: 0px 5px 5px 0px grey;
 }
-
 #header::after {
   content: "";
   position: absolute;
@@ -102,23 +86,13 @@
   position: absolute;
   width: 100%;
   top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Oswald', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
   z-index: 2;
 }
-
 #logo h1 {
   color: #E5E5E5;
   text-align: center;
@@ -127,11 +101,9 @@
   font-size: 44px;
   position: relative;
 }
-
 #logo h1 #letter-a {
   font-size: 55px;
 }
-
 #logo #logo-stars {
   position: relative;
   left: 63px;
@@ -142,20 +114,12 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   z-index: 4;
   padding: 15px;
 }
-
 #hamburger span {
   display: inline-block;
   width: 25px;
@@ -166,13 +130,9 @@
 
 #contact-section {
   margin-top: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
@@ -184,46 +144,41 @@
   border-radius: 5px;
   color: #EFEFEF;
   font-family: inherit;
+  cursor: pointer;
 }
 
 .phoneBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
 }
 
 .quickNote {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   margin-top: 20px !important;
 }
-
 .quickNote .noteLine {
   width: 3px;
   height: 16px;
-  background-color: #fbbc04;
+  background-color: rgb(251, 188, 4);
   margin-right: 3px;
 }
-
 .quickNote p {
   font-family: inherit;
   font-size: 10px;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -236,7 +191,7 @@ body {
 }
 
 .sectionCaptions {
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
   color: black;
   font-weight: 400;
 }
@@ -245,53 +200,40 @@ body {
   margin-top: 20px;
   color: #070707;
 }
-
 #sectionRooms img {
   display: block;
   width: 100%;
   border-radius: 10px;
   margin: 0 auto;
 }
-
 #sectionRooms .roomCaptions {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   margin-top: 17px;
 }
-
 #sectionRooms .roomInfos {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 12px;
   margin-top: 17px;
 }
-
 #sectionRooms .miniIcons {
   width: 80%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 17px;
   color: rgba(52, 84, 209, 0.85);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 10px;
 }
 
 .roomCards {
   margin-top: 17px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .rcard {
@@ -312,40 +254,29 @@ body {
 #sectionPrecautions {
   margin-top: 25px;
 }
-
 #sectionPrecautions .caption {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
-
 #sectionPrecautions .virusicon {
   color: #3454D1;
   font-size: 30px;
 }
-
 #sectionPrecautions h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: center;
   padding: 10px 5px;
   background-color: rgba(250, 250, 250, 0.75);
   border-radius: 6px;
-  color: #d1345b;
+  color: rgb(209, 52, 91);
 }
-
 #sectionPrecautions ul {
   margin-top: 20px !important;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
 #sectionPrecautions ul li {
   margin: 5px 0;
   list-style-image: url("/assets/heartbeat-solid 1.svg");
@@ -354,24 +285,15 @@ body {
 #sectionPrivileges {
   margin-top: 25px;
 }
-
 #sectionPrivileges .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   color: #3454D1;
   margin-top: 25px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
-
 #sectionPrivileges .cards .card {
   text-align: center;
   width: 260px;
@@ -379,16 +301,13 @@ body {
   padding: 15px 10px 20px;
   margin-bottom: 20px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.25);
 }
-
 #sectionPrivileges .cards .cardCaption {
   font-weight: 700;
   font-size: 22px;
   margin-top: 10px;
 }
-
 #sectionPrivileges .cards .carddesc {
   font-size: 15px;
   font-weight: 200;
@@ -402,56 +321,40 @@ body {
 }
 
 .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   padding: 10px 12px;
-  -webkit-box-shadow: 2px 3px 7px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 2px 3px 7px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 3px 7px 0 rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Poppins', sans-serif;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 10px;
   margin-top: 20px;
 }
-
 .box figure {
   width: 15%;
   margin-right: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .box img {
   width: 100%;
 }
-
 .box .comment {
   width: 80%;
 }
-
 .box .stars {
-  color: #fbbc04;
+  color: rgb(251, 188, 4);
   font-size: 12px;
 }
-
 .box .line {
   background-color: black;
   height: 1px;
 }
-
 .box p {
   margin-top: 5px;
 }
-
 .box span {
   display: block;
   text-align: end;
@@ -460,40 +363,33 @@ body {
 
 #contact {
   margin-top: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 #contact h3 {
   padding: 10px 0px;
   font-size: 12px;
   font-weight: 200;
 }
-
 #contact .call {
   font-weight: 200;
   font-size: 12px;
 }
-
 #contact .call i {
   color: #008FE0;
   margin-right: 10px;
 }
-
 #contact .address {
   font-weight: 200;
   font-size: 12px;
 }
-
 #contact .address i {
   color: #00B448;
   margin-right: 10px;
 }
-
 #contact .mail {
   font-weight: 200;
   font-size: 12px;
 }
-
 #contact .mail i {
   color: #CC00AB;
   margin-right: 10px;
@@ -513,8 +409,6 @@ iframe {
     margin: 0 auto;
   }
   #desktop-menu {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
     display: flex !important;
   }
   #logo {
@@ -547,8 +441,7 @@ iframe {
     top: 590px;
     z-index: 2;
     left: 50%;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
   }
   #contact-section .phoneBtn {
     display: none;
@@ -569,11 +462,8 @@ iframe {
     color: #fff;
     z-index: 2;
     left: 50%;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    transform: translate(-50%, 0);
+    justify-content: center;
   }
   #sectionRooms .roomCaptions {
     font-size: 24px;
@@ -588,13 +478,8 @@ iframe {
     height: 55px;
   }
   .roomCards {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
   #sectionRooms .roomCaptions {
     font-size: 20px;
@@ -618,9 +503,7 @@ iframe {
     display: none;
   }
   #sectionPrecautions .caption {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   #sectionPrecautions ul {
     margin-top: 50px !important;
@@ -633,15 +516,10 @@ iframe {
     margin-bottom: 30px;
   }
   #sectionPrivileges .cards {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   #sectionPrivileges .card {
     margin: 10px;
@@ -682,56 +560,43 @@ iframe {
     height: 500px;
   }
 }
-
 #desktop-menu {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
   height: 60px;
   background-color: #272727;
   display: none;
 }
-
 #desktop-menu button {
   width: 150px;
   height: 40px;
   font-size: 16px;
   margin-top: 10px;
   margin-left: 20px;
+  cursor: pointer;
 }
-
 #desktop-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 #desktop-menu ul li {
   font-size: 1.3vw;
   list-style-type: none;
 }
-
 #desktop-menu ul li a {
-  color: white;
+  color: rgb(140, 140, 140);
   text-decoration: none;
   width: 1rem;
   height: 1rem;
 }
-/*# sourceMappingURL=main.css.map */
+#desktop-menu ul li a:hover {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
