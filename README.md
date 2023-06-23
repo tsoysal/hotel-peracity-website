@@ -3,7 +3,7 @@ First i've designed wareframe with figma then i've created it with Html Css Java
 
 # Preview
 
-link : https://berksysl.github.io/peracityhotel
+link : https://tsoysal.github.io/hotel-peracity-website/
 
 
 ![hoteldesignfigma](https://user-images.githubusercontent.com/54808716/200323737-c0b82a5b-a9ed-41a5-9a84-da608aee8abe.png)
