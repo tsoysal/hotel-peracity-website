@@ -1,5 +1,5 @@
 # Peracity Hotel Official Web Site
-First i've designed wareframe with figma then i've created it with Html Css Javascript and some Bootstrap
+First i've designed wireframe with figma then i've created it with Html Css Javascript and some Bootstrap
 
 # Preview
 
